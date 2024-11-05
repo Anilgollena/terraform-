@@ -1,6 +1,6 @@
 #Creating 1st EC2 instance
 resource "aws_instance" "instance-wordpress" {
-  ami = "ami-06b21ccaeff8cd686"
+  ami = "ami-0ddc798b3f1a5117e"
   instance_type = "t2.micro"
   key_name = "anil"
   subnet_id = aws_subnet.public_sb_1.id
