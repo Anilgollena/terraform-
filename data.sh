@@ -5,5 +5,4 @@ sudo yum install -y python3-pip
 git clone https://github.com/veerareddy1422/indian-liver-patients.git
 cd indian-liver-patients/
 pip3 install -r requirements.txt
-python3 app.py
-
+python3 ./app.py
